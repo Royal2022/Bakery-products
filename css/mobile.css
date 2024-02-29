@@ -1,0 +1,111 @@
+/*1000px*/
+@media all and (max-width: 1272px) {
+    .mini_menu_images{
+        display: none;
+    }
+    .images_and_info_about_recipe{
+        margin-top: 100px;
+        justify-content: center;
+    }
+    .directions_and_ingredients{
+        justify-content: center;
+    }
+    .ingredients{
+        width: 80%;
+    }
+    .directions{
+        width: 80%;
+    }
+    .recipe_features_date_name{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .name_recipe{
+        width: 70%;
+        text-align: center;
+    }
+    .features_and_author{
+        text-align: center;
+        width: 80%;
+    }
+    .time_text{
+        width: 50%;
+        display: none;
+    }
+    .time_text_not_visible{
+        display: block;
+    }
+    .all_recipes_desserts{
+        display: none;
+    }
+    .container_slider_recipes{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .slider_recipes{
+        display: flex;
+        justify-content: center;
+    }
+    .text_left_and_text_right{
+        width: 70%;
+    }
+    .text_left, .text_right{
+        width: 40%;
+    }
+    .info_about_pancake{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+
+
+    .content_slider{
+        display: none;
+    }
+    .mini_content_slider{
+        display: flex;
+    }
+
+    .footer{
+        display: none;
+    }
+
+
+    .box_add_recipe {
+        zoom: 1.5;
+    }
+
+    .zoom_full_images {
+        zoom: 1.5;
+    }
+
+}
+
+@media all and (max-width: 1440px) {
+    .images_and_info_about_recipe{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .full_images{
+        margin-bottom: 10px;
+    }
+    .all_recipes_desserts{
+        margin-left: 150px;
+    }
+    .directions_and_ingredients{
+        justify-content: center;
+    }
+    .ingredients{
+        width: 80%;
+    }
+    .directions{
+        width: 80%;
+    }
+    .slider_box:nth-child(3){
+        display: none;
+    }
+}

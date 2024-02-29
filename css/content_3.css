@@ -1,0 +1,197 @@
+
+
+.container_slider_recipes{
+    margin: 0 25px 0 25px;
+    position: relative;
+}
+
+.headings_similar_recipes{
+    margin-top: 100px;
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #2B2B2D;
+    margin-bottom: 30px;
+}
+
+
+
+.slider_recipes{
+    margin: 0 -50px 0 -42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.slider_box{
+    background: #FDFDFD;
+    box-shadow: 0 2px 30px rgba(217, 196, 177, 0.5);
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.slider_box:hover{
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.img_slider{
+    margin: 17px 15px 17px 15px;
+}
+
+.name_slider_box{
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B2B2D;
+}
+
+
+.stars_slider_box{
+    display: flex;
+    align-items: center;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #2B2B2D;
+    margin: 10px 0 10px 0;
+
+}
+.rating-mini {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 10px;
+}
+.rating-mini span {
+    padding: 0;
+    font-size: 25px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating-mini > span:before {
+    content: '★';
+}
+.rating-mini > span.active {
+    color: #FBBB43;
+}
+.rating-mini > span.deactivate {
+     color: #2B2B2D;
+ }
+
+
+
+.text_slider_box{
+    width: 250px;
+    margin: 0 30px 30px 30px;
+    text-align: center;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2B2B2D;
+}
+
+.content_slider{
+    display: flex;
+}
+
+.button_slider_left{
+    width: 42px;
+    height: 40px;
+    background: #D9C4B1;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    top: 260px;
+    left: -24px;
+}
+.button_slider_right{
+    transform: rotate(180deg);
+    width: 42px;
+    height: 40px;
+    background: #D9C4B1;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    top: 260px;
+    left: 33px;
+}
+
+
+
+
+
+/*  Mini content slider  */
+
+.mini_content_slider{
+    display: none;
+}
+
+
+
+.slider_recipes_mini{
+    margin: 0 -50px 0 -42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.slider_box_mini{
+    background: #FDFDFD;
+    box-shadow: 0 2px 30px rgba(217, 196, 177, 0.5);
+    border-radius: 5px;
+    display: none;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button_slider_left_mini{
+    width: 42px;
+    height: 40px;
+    background: #D9C4B1;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    top: 260px;
+    left: -25px;
+}
+.button_slider_right_mini{
+    transform: rotate(180deg);
+    width: 42px;
+    height: 40px;
+    background: #D9C4B1;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    top: 260px;
+    left: 35px;
+}

@@ -1,0 +1,350 @@
+
+.all_recipes_desserts{
+    display: flex;
+    align-items: center;
+
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B2B2D;
+    text-decoration: none;
+    margin: 50px 0 40px 0;
+
+}
+.arrow3{
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.images_and_info_about_recipe{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.all_images{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: relative;
+}
+.button_left{
+    width: 40px;
+    height: 40px;
+    background: #2B2B2D;
+    opacity: 0.5;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    cursor: pointer;
+}
+.button_left:hover {
+    animation: arrow-1 0.6s linear infinite;
+}
+@keyframes arrow-1 {
+    0% {
+        left:10px;
+    }
+    50% {
+        left:15px;
+    }
+    100% {
+        left:10px;
+    }
+}
+
+
+.button_right{
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+    background: #2B2B2D;
+    opacity: 0.5;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 505px;
+    cursor: pointer;
+}
+.button_right:hover {
+    animation: arrow-2 0.6s linear infinite;
+}
+@keyframes arrow-2 {
+    0% {
+        left:505px;
+    }
+    50% {
+        left:500px;
+    }
+    100% {
+        left:505px;
+    }
+}
+
+
+
+.button_right img, .button_left img{
+    margin: 12px 9.5px 12px 9.5px;
+}
+
+
+
+
+
+.full_images{
+    width: 555px;
+    height: 320px;
+    background: #FDFDFD;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 30px rgba(217, 196, 177, 0.5);
+    transition: 0.5s;
+}
+.full_images:hover{
+    box-shadow: none;
+    transition: 0.5s;
+}
+.full_images img{
+    cursor: pointer;
+}
+
+
+.zoom_full_images{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 43, 45, 0.4);
+    z-index: 3;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    zoom: 1.1;
+}
+.button_close{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: #FDFDFD;
+    cursor: pointer;
+    position: relative;
+    top: -140px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mini_menu_images{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+.mini_menu_images .mini_images_on:hover, .mini_images_off:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.mini_menu_images .mini_images_on, .mini_images_off{
+    transition: 0.5s;
+}
+.mini_images_off{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FDFDFD;
+    cursor: pointer;
+}
+.mini_images_on{
+    background: #F0B60C;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.img_on{
+    display: flex;
+}
+.img_off{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.info_about_pancake{
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+}
+
+
+
+
+.recipe_features_date_name{
+    width: 90%;
+}
+
+.name_recipe{
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2B2B2D;
+    margin-bottom: 10px;
+}
+.features_and_author{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #2B2B2D;
+    margin-top: 37px;
+}
+.time_text{
+    margin-bottom: 40px;
+}
+.time_text_not_visible{
+    display: none;
+}
+
+.features_and_author p{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #2B2B2D;
+}
+
+
+.stars{
+    display: flex;
+    align-items: center;
+
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #2B2B2D;
+}
+
+.rating-area {
+    overflow: hidden;
+    width: 150px;
+    margin-right: 10px;
+}
+.rating-area:not(:checked) > input {
+    display: none;
+}
+.rating-area:not(:checked) > label {
+    float: right;
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+    font-size: 32px;
+    line-height: 32px;
+    color: #2B2B2D;
+    text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+    content: '★';
+}
+.rating-area > input:checked ~ label {
+    color: #F0B60C;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+    color: #FBBB43;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+    color: #FBBB43;
+}
+
+
+
+
+
+
+.button_save_and_button_print{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 36px;
+}
+.button_save_and_button_print a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    background: #FDFDFD;
+    border-radius: 3px;
+    width: 460px;
+    height: 40px;
+    text-decoration: none;
+
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #2B2B2D;
+
+    transition: 1s;
+}
+.button_save_and_button_print img{
+    margin-right: 15px;
+}
+.button_save_and_button_print a:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}

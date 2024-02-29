@@ -1,0 +1,295 @@
+
+
+.content_add_recipe{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_recipe_header{
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #2B2B2D;
+    margin-top:10px;
+    margin-bottom: 0;
+}
+
+.black_fon{
+    width: 100%;
+    height: 100%;
+    background: #2B2B2D;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+
+.box_add_recipe{
+    margin-top: 100px;
+    width: 480px;
+    background: #F3EAE1;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    z-index: 2;
+}
+.box_add_recipe input{
+    background: #FDFDFD;
+    border: 1px solid #D9C4B1;
+    box-sizing: border-box;
+    box-shadow: 0 2px 30px rgba(217, 196, 177, 0.5);
+    border-radius: 1px;
+    height: 40px;
+}
+.box_add_recipe input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(212, 169, 151);
+    position: relative;
+}
+.box_add_recipe input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+
+form[name="add_recipe"]{
+    width: 80%;
+}
+form[name="add_recipe"] p{
+    margin-bottom: 5px;
+}
+
+.cooking_time_and_number_of_serving{
+    display: flex;
+    justify-content: space-between;
+}
+
+.count_of_ingredients_and_ingredient{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.count_of_ingredients_and_ingredient label{
+    width: 100%;
+}
+.count_of_ingredients_and_ingredient label input{
+    width: 100%;
+}
+
+.name_of_recipe input{
+    width: 100%;
+}
+
+form[name="add_recipe"] p{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2B2B2D;
+}
+.add_ingredient{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 182px;
+    height: 40px;
+    background: #F7F4F9;
+    box-shadow: 0 2px 30px rgba(217, 196, 177, 0.5);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #2B2B2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.directions_button{
+    width: 29px;
+    height: 28px;
+    position: relative;
+    top: -34px;
+    left: 345px;
+    background: #F3EAE1;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.directions input{
+    width: 100%;
+}
+
+.button_submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form[name="add_recipe"] .submit{
+    background: linear-gradient(93.95deg, rgba(255, 206, 64, 0.5) 0.35%, rgba(147, 240, 245, 0.5) 99.9%);
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+form[name="add_recipe"] .submit:focus{
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.ingredient_save{
+    background: #FDFDFD;
+    border: 1px solid #D9C4B1;
+    box-sizing: border-box;
+    /*
+    box-shadow: 0 2px 30px rgba(217, 196, 177, 0.5);
+    */
+    margin-bottom: 20px;
+}
+.ingredient_save .text{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #2B2B2D;
+    margin: 15px 40px 10px 15px;
+}
+.ingredient_delete{
+    width: 25px;
+    height: 25px;
+    background: #F3EAE1;
+    position: relative;
+    top: -15px;
+    left: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.ingredient_save_box{
+    max-height: 220px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-right: -5px;
+}
+
+
+.ingredient_save_box::-webkit-scrollbar {
+    width: 5px;
+}
+.ingredient_save_box::-webkit-scrollbar-track {
+    background: none;
+}
+.ingredient_save_box::-webkit-scrollbar-thumb {
+    background-color: #D9C4B1;
+    border-radius: 20px;
+}
+
+.ing_count_delete{
+    width: 25px;
+    height: 25px;
+    background: #F3EAE1;
+    position: absolute;
+    top: 8px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.text_count_of_ingredients, .text_ingredient{
+    background: #FDFDFD;
+    border: 1px solid #D9C4B1;
+    box-sizing: border-box;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2B2B2D;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.box_count_of_ingredients_and_ingredient{
+    width: 100%;
+    display: flex;
+}
+.save_text{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.save_text:nth-child(n+2){
+    margin-top: 20px;
+}
+.mini_header{
+    display: flex;
+    width: 100%;
+}
+
+
+.open_box{
+    max-height: 110px;
+    overflow-y: scroll;
+    padding: 5px 5px 5px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+
+}
+
+
+
+
+
+.open_box::-webkit-scrollbar {
+    width: 5px;
+}
+.open_box::-webkit-scrollbar-track {
+    background: none;
+}
+.open_box::-webkit-scrollbar-thumb {
+    background-color: #D9C4B1;
+    border-radius: 20px;
+}
+
+.save_text{
+    font-family: 'Amiko';
+}

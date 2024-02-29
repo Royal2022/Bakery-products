@@ -1,0 +1,51 @@
+
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    background: #F7F4F9;
+    display: flex;
+    justify-content: center;
+    flex: auto;
+}
+.footer_content{
+    margin-bottom: 10px;
+}
+
+
+
+.search{
+    background: #FDFDFD;;
+    margin-top: 50px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.search img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.input_search{
+    border: none;
+    width: 500px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.copy{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2B2B2D;
+}
+
+.search input:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
